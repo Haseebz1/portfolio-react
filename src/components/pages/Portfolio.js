@@ -1,4 +1,6 @@
-import React from 'react';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+let myPic = '/Assets/images/placeholder.webp';
 
 export default function Portfolio() {
   return (
@@ -12,6 +14,57 @@ export default function Portfolio() {
         imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
+      <div className="row">
+        <div className="col-md-5">
+          <img
+            width="175px"
+            src={process.env.PUBLIC_URL + myPic}
+            alt="Haseeb"
+          />
+        </div>
+        <div className="col-md-5">
+          <img
+            width="175px"
+            src={process.env.PUBLIC_URL + myPic}
+            alt="Haseeb"
+          />
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-md-5">
+          <img
+            width="175px"
+            src={process.env.PUBLIC_URL + myPic}
+            alt="Haseeb"
+          />
+        </div>
+        <div className="col-md-5">
+          <img
+            width="175px"
+            src={process.env.PUBLIC_URL + myPic}
+            alt="Haseeb"
+          />
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-md-5">
+          <img
+            width="175px"
+            src={process.env.PUBLIC_URL + myPic}
+            alt="Haseeb"
+          />
+        </div>
+        <div className="col-md-5">
+          <img
+            width="175px"
+            src={process.env.PUBLIC_URL + myPic}
+            alt="Haseeb"
+          />
+        </div>
+      </div>
+      
     </div>
   );
 }

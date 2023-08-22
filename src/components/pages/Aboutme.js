@@ -1,9 +1,10 @@
 import React from 'react';
+import './aboutme.css' ;
 let myPic = '/Assets/images/placeholder.webp';
 
 export default function AboutMe() {
   return (
-    <div>
+    <div className='aboutme'>
       <h1>AboutMe Page</h1>
       <img width='175px' src={process.env.PUBLIC_URL + myPic} alt='Haseeb' />
       <p>
