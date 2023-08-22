@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <div>
       <h1>AboutMe Page</h1>
-      <img src={process.env.PUBLIC_URL + myPic} alt='Haseeb' />
+      <img width='175px' src={process.env.PUBLIC_URL + myPic} alt='Haseeb' />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
