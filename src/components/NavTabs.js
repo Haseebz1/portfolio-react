@@ -7,13 +7,13 @@ function NavTabs({ currentPage, handlePageChange }) {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+          href="#about"
+          onClick={() => handlePageChange('AboutMe')}
+          // This is a conditional (ternary) operator that checks to see if the current page is "AboutMe"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          AboutMe
         </a>
       </li>
       <li className="nav-item">
