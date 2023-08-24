@@ -5,7 +5,7 @@ let noteTakerPic = '/Assets/images/NotetakerSC.png';
 let textEditorPic = '/Assets/images/textEditor-PWA.png';
 let weatherDashPic = '/Assets/images/weatherDashSc.png';
 let readmeGeneratorPic = '/Assets/images/readMeGenerator.png';
-let DailyPlanerPic ='/Assets/images/readMeGenerator.png'
+let DailyPlanerPic ='/Assets/images/dailyPlannerSc.png';
 
 export default function Portfolio() {
   return (
@@ -85,7 +85,7 @@ export default function Portfolio() {
         <p>Project 6</p>
           <img
             width="175px"
-            src={process.env.PUBLIC_URL + noteTakerPic}
+            src={process.env.PUBLIC_URL + DailyPlanerPic}
             alt="DailyPlaner"
           />
            <a href="https://github.com/Haseebz1/Daily-Planner.git" target="_blank" rel="noopener noreferrer">
