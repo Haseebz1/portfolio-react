@@ -14,6 +14,19 @@ export default function Resume() {
         <li>React</li>
         <li>Bootstrap</li>
       </ul>
+
+      <h2>Back-end Skills:</h2>
+      <ul>
+        <li>API Development</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>MySQL</li>
+        <li>Sequelize</li>
+        <li>MongoDB</li>
+        <li>Mongoose</li>
+        <li>REST API</li>
+        <li>GraphQL</li>
+      </ul>
     </div>
   );
 }
