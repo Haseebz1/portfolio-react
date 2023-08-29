@@ -12,7 +12,7 @@ export default function Portfolio() {
   return (
     <div className="myportfolio">
       <h1>Portfolio Page</h1>
-      <p className="paragraph">
+      <p className="portfolioParagraph">
       "I'm excited to showcase my IT portfolio on GitHub, a curated collection of my projects, skills,
        and accomplishments in the world of technology. 
       This portfolio reflects my journey as an IT enthusiast, highlighting the innovative solutions.
