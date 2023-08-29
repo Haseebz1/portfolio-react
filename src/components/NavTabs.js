@@ -1,10 +1,12 @@
 import React from 'react';
+import './navTabs.css';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <div className='myheader'>
+    <ul className="nav nav-tabs myul" >
       <li className="nav-item">
         <a
           href="#about"
@@ -13,7 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
         >
-          AboutMe
+          <h3>AboutMe</h3>
         </a>
       </li>
       <li className="nav-item">
@@ -23,7 +25,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          Portfolio
+         <h3>Portfolio</h3> 
         </a>
       </li>
       <li className="nav-item">
@@ -33,7 +35,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
-          Resume
+          <h3>Resume</h3>
         </a>
       </li>
       <li className="nav-item">
@@ -43,10 +45,11 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
-          Contact
+         <h3>Contact</h3>
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 
