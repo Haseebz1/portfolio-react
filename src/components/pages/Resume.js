@@ -3,9 +3,6 @@ import './resume.css';
 export default function Resume() {
   return (
     <div className='myresume'>
- <a href="/ " target="_blank" rel="noopener noreferrer" > View CV</a>
-
-
       <h1>Resume</h1>
       <h2>Front-end Skills</h2>
       <ul>
@@ -30,6 +27,9 @@ export default function Resume() {
         <li>REST API</li>
         <li>GraphQL</li>
       </ul>
+
+
+      <h5>Please click on the CV icon below to access my CV document</h5>
     </div>
   );
 }
