@@ -6,3 +6,7 @@ position: relative;
 border-radius: 10px;
 
 }
+.aboutMeParagraph {
+    font-size: 20px;
+    font-weight: 500;
+}

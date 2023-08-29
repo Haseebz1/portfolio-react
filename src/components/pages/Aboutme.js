@@ -7,7 +7,7 @@ export default function AboutMe() {
     <div className="aboutme">
       <h1>AboutMe</h1>
       <img width="175px" src={process.env.PUBLIC_URL + myPic} alt="Haseeb" />
-      <p>
+      <p className="aboutMeParagraph">
         With a strong foundation in Agile methodologies, I thrive on
         organization, a skill that fuels my effective time management, ensuring
         I consistently meet project deadlines. My calm and focused demeanor in
