@@ -1,8 +1,7 @@
 .myresume {
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(131,108,150,1) 77%);
-    padding: 20px ;
-    position: relative;  
+    padding: 10px; 
     border-radius:10px; 
     
 }
