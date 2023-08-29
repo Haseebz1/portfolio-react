@@ -1,5 +1,5 @@
 .myheader {
-    min-height: 100px;
+    min-height: 75px;
     background: #E5E5E5;
     background:linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
 	background-color:#dbe6c4;
@@ -16,4 +16,11 @@
 .myul {
     margin-top: 20px;
     margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+    transition:transform 0.2s ease-in-out ;
+}
+
+.nav-item:hover {
+    transform: scale(1.05);
 }
