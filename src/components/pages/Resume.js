@@ -3,7 +3,10 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
-      <h1>Resume Page</h1>
+ <a href="/ " target="_blank" rel="noopener noreferrer" > View CV</a>
+
+
+      <h1 className='resume'>Resume</h1>
       <h2>Front-end Skills</h2>
       <ul>
         <li>HTML</li>
