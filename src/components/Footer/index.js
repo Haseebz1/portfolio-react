@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className=" text-center footer">
     <a
-        href="www.linkedin.com/in/haseeb-zubair-219ba3267"
+        href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
         target="_blank"
         rel="noopener noreferrer"
       >
