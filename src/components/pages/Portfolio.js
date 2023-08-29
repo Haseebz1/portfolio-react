@@ -32,7 +32,7 @@ export default function Portfolio() {
             alt="WearCoPic"
           />
           <a href="https://github.com/cckinwest/Project2-WearCorp.git" target="_blank" rel="noopener noreferrer">
-          <p className="code-link">click here for code</p>
+          <p className="code-link">Click here for code</p>
           </a>
         </div>
         <div className="col-md-5">
@@ -43,7 +43,7 @@ export default function Portfolio() {
             alt="NotetakerPic"
           />
            <a href="https://github.com/Haseebz1/NoteTaker.git" target="_blank" rel="noopener noreferrer">
-          <p>click here for code</p>
+          <p className="code-link">click here for code</p>
           </a>
         </div>
       </div>
@@ -57,7 +57,7 @@ export default function Portfolio() {
             alt="WearCoPic"
           />
           <a href="https://github.com/Haseebz1/textEditor-PWA.git" target="_blank" rel="noopener noreferrer">
-          <p>click here for code</p>
+          <p className="code-link">click here for code</p>
           </a>
         </div>
         <div className="col-md-5">
@@ -68,7 +68,7 @@ export default function Portfolio() {
             alt=" WeatherDash"
           />
            <a href="https://github.com/Haseebz1/weatherDash.git" target="_blank" rel="noopener noreferrer">
-          <p>click here for code</p>
+          <p className="code-link">click here for code</p>
           </a>
         </div>
       </div>
@@ -82,7 +82,7 @@ export default function Portfolio() {
             alt="Readme Genrator"
           />
           <a href="https://github.com/Haseebz1/ReadmeGenerator.git" target="_blank" rel="noopener noreferrer">
-          <p>click here for code</p>
+          <p className="code-link">click here for code</p>
           </a>
         </div>
         <div className="col-md-5">
@@ -93,7 +93,7 @@ export default function Portfolio() {
             alt="DailyPlaner"
           />
            <a href="https://github.com/Haseebz1/Daily-Planner.git" target="_blank" rel="noopener noreferrer">
-          <p>click here for code</p>
+          <p className="code-link">click here for code</p>
           </a>
         </div>
       </div>

@@ -5,3 +5,11 @@
     position: relative;
     border-radius: 10px;
 }
+.code-link {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    padding:10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
