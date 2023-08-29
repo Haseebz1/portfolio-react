@@ -2,13 +2,13 @@
     min-height: 75px;
     background: #E5E5E5;
     background:linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
-	background-color:#dbe6c4;
+	background-color:#bdd28f;
     background: repeating-linear-gradient(
         45deg,
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.2) 10px,
-        rgba(0, 0, 0, 0.3) 10px,
-        rgba(0, 0, 0, 0.3) 20px
+        rgba(21, 10, 234, 0.2),
+        rgba(21, 10, 234, 0.2) 10px,
+        rgba(21, 10, 234, 0.3) 10px,
+        rgba(21, 10, 234, 0.3) 20px
       ),
       url(http://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@2X.png);
 }

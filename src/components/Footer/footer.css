@@ -1,6 +1,9 @@
 .footer {
   min-height: 100px;
-  background: #E5E5E5;   position: relative;
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(14,1,1,1) 47%, rgba(252,176,69,1) 100%);
+position: relative;
+margin-top: -2%;
 }
 
 .footer span {
@@ -8,6 +11,12 @@
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 3px;
+  padding: 2%;
   background: #B8B8B8;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
 }
