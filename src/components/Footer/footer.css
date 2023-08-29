@@ -1,9 +1,10 @@
 .footer {
-  min-height: 100px;
+  min-height: 139px;
   background: rgb(131,58,180);
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(14,1,1,1) 47%, rgba(252,176,69,1) 100%);
 position: relative;
 margin-top: -2%;
+
 }
 
 .footer span {
@@ -19,12 +20,16 @@ margin-top: -2%;
   height: 50px;
   border-radius: 50%;
   transition: transform 0.2s ease-in-out;
+  position: relative;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
 }
 .icon:hover{
   transform: scale(1.2);
 }
 .copyright {
-  display: block;
   color: white;
-  margin-top: 40px;
+  vertical-align: middle;
+  display: inline-block;
 }
