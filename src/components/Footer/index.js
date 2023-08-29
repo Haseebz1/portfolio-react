@@ -40,7 +40,7 @@ function Footer() {
         />
       </a>
 
-      <span>&copy; Copyright 2020 Haseeb Zubair</span>
+      <span className="copyright">&copy; Copyright 2020 Haseeb Zubair</span>
     </footer>
   );
 }

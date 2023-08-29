@@ -20,3 +20,11 @@ margin-top: -2%;
   border-radius: 50%;
   transition: transform 0.2s ease-in-out;
 }
+.icon:hover{
+  transform: scale(1.2);
+}
+.copyright {
+  display: block;
+  color: white;
+  margin-top: 40px;
+}
