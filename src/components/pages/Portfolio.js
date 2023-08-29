@@ -1,4 +1,5 @@
 import React from "react";
+import "./portfolio.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 let wearCoPic = '/Assets/images/WearCoSC.png';
 let noteTakerPic = '/Assets/images/NotetakerSC.png';
@@ -9,7 +10,7 @@ let DailyPlanerPic ='/Assets/images/dailyPlannerSc.png';
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className="myportfolio">
       <h1>Portfolio Page</h1>
       <p>
       "I'm excited to showcase my IT portfolio on GitHub, a curated collection of my projects, skills,
