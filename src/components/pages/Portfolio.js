@@ -12,7 +12,7 @@ export default function Portfolio() {
   return (
     <div className="myportfolio">
       <h1>Portfolio Page</h1>
-      <p>
+      <p className="paragraph">
       "I'm excited to showcase my IT portfolio on GitHub, a curated collection of my projects, skills,
        and accomplishments in the world of technology. 
       This portfolio reflects my journey as an IT enthusiast, highlighting the innovative solutions.
@@ -25,7 +25,7 @@ export default function Portfolio() {
       </p>
       <div className="row">
         <div className="col-md-5">
-        <p>Project 1</p>
+        <p className="projectText">Project 1</p>
           <img
             width="475px"
             src={process.env.PUBLIC_URL + wearCoPic}
@@ -36,7 +36,7 @@ export default function Portfolio() {
           </a>
         </div>
         <div className="col-md-5">
-        <p>Project 2</p>
+        <p className="projectText">Project 2</p>
           <img
             width="475px"
             src={process.env.PUBLIC_URL + noteTakerPic}
@@ -50,7 +50,7 @@ export default function Portfolio() {
 
       <div className="row">
         <div className="col-md-5">
-        <p>Project 3</p>
+        <p className="projectText">Project 3</p>
           <img
             width="475px"
             src={process.env.PUBLIC_URL + textEditorPic}
@@ -61,7 +61,7 @@ export default function Portfolio() {
           </a>
         </div>
         <div className="col-md-5">
-        <p>Project 4</p>
+        <p className="projectText">Project 4</p>
           <img
             width="475px"
             src={process.env.PUBLIC_URL + weatherDashPic}
@@ -75,7 +75,7 @@ export default function Portfolio() {
 
       <div className="row">
         <div className="col-md-5">
-        <p>Project 5</p>
+        <p className="projectText">Project 5</p>
           <img
             width="475px"
             src={process.env.PUBLIC_URL + readmeGeneratorPic}
@@ -86,7 +86,7 @@ export default function Portfolio() {
           </a>
         </div>
         <div className="col-md-5">
-        <p>Project 6</p>
+        <p className="projectText">Project 6</p>
           <img
             width="475px"
             src={process.env.PUBLIC_URL + DailyPlanerPic}

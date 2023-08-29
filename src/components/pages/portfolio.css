@@ -13,3 +13,14 @@
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
 }
+
+.projectText {
+    font-size: 20px;
+    font-weight: bold;
+    position:relative;
+    padding: 5px 10px;
+}
+.paragraph {
+    font-size:20px ;
+    font-weight: 400;
+}
