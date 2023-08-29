@@ -1,12 +1,12 @@
 import React from 'react';
-
+import './resume.css';
 export default function Resume() {
   return (
-    <div>
+    <div className='myresume'>
  <a href="/ " target="_blank" rel="noopener noreferrer" > View CV</a>
 
 
-      <h1 className='resume'>Resume</h1>
+      <h1>Resume</h1>
       <h2>Front-end Skills</h2>
       <ul>
         <li>HTML</li>

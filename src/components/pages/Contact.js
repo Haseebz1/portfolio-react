@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
+import './contact.css';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -23,7 +24,7 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div className='mycontact'>
       <h2>Contact Form</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
