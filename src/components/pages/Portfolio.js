@@ -3,7 +3,7 @@ import "./portfolio.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 let wearCoPic = '/Assets/images/WearCoSC.png';
 let noteTakerPic = '/Assets/images/NotetakerSC.png';
-let textEditorPic = '/Assets/images/textEditor-PWA.PNG';
+let textEditorPic = '/Assets/images/textEditor-PWA.png';
 let weatherDashPic = '/Assets/images/weatherDashSc.png';
 let readmeGeneratorPic = '/Assets/images/readMeGenerator.png';
 let DailyPlanerPic ='/Assets/images/dailyPlannerSc.png';
@@ -54,7 +54,7 @@ export default function Portfolio() {
           <img
             width="475px"
             src={process.env.PUBLIC_URL + textEditorPic}
-            alt="WearCoPic"
+            alt="Text Editor"
           />
           <a href="https://github.com/Haseebz1/textEditor-PWA.git" target="_blank" rel="noopener noreferrer">
           <p className="code-link">click here for code</p>
