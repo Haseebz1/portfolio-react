@@ -3,7 +3,7 @@ import "./portfolio.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 let wearCoPic = '/Assets/images/WearCoSC.png';
 let noteTakerPic = '/Assets/images/NotetakerSC.png';
-let textEditorPic = '/Assets/images/textEditor-PWA.png';
+let textEditorPic = '/Assets/images/textEditor-PWA.PNG';
 let weatherDashPic = '/Assets/images/weatherDashSc.png';
 let readmeGeneratorPic = '/Assets/images/readMeGenerator.png';
 let DailyPlanerPic ='/Assets/images/dailyPlannerSc.png';
@@ -40,7 +40,7 @@ export default function Portfolio() {
           <img
             width="475px"
             src={process.env.PUBLIC_URL + noteTakerPic}
-            alt="NotetakerPic"
+            alt="Notetaker Pic"
           />
            <a href="https://github.com/Haseebz1/NoteTaker.git" target="_blank" rel="noopener noreferrer">
           <p className="code-link">click here for code</p>

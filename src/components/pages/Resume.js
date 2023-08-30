@@ -27,8 +27,7 @@ export default function Resume() {
         <li>REST API</li>
         <li>GraphQL</li>
       </ul>
-
-
+      
       <h5>Please click on the CV icon below to access my CV document</h5>
     </div>
   );
